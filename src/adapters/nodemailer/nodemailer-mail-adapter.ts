@@ -15,7 +15,7 @@ export class NodemailerMailAdapter implements MailAdapter {
   async sendMail({ subject, body }: SendMailData) {
     await transport.sendMail({
       from: 'Equipe Feedget <oi@feedget.com>',
-      to: 'Christopher Arthur <chrisaleiro@gmail.com>',
+      to: 'Teloschet <teloschet@telos.com>',
       subject,
       html: body,
     })
